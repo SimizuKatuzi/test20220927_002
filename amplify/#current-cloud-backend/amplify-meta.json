@@ -40,7 +40,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify5b8ad874e04e4-staging-45332-deployment/amplify-cfn-templates/auth/test20220927002c4926e47-cloudformation-template.json",
         "logicalId": "authtest20220927002c4926e47"
       },
-      "lastPushTimeStamp": "2022-09-28T04:52:55.324Z",
+      "lastPushTimeStamp": "2022-10-03T06:19:46.991Z",
       "output": {
         "UserPoolId": "ap-northeast-1_oonebqcOF",
         "AppClientIDWeb": "4029bjdptrkok2cn3v25btbv8",
@@ -63,7 +63,9 @@
           "defaultAuthentication": {
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
+              "apiKeyExpirationDays": 7,
+              "apiKeyExpirationDate": "2022-10-05T09:48:41.857Z",
+              "description": "demo"
             }
           },
           "additionalAuthenticationProviders": []
@@ -76,8 +78,8 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify5b8ad874e04e4-staging-45332-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apitest20220927002"
       },
-      "lastPushTimeStamp": "2022-09-28T04:53:00.319Z",
-      "lastPushDirHash": "qlqz+eCReOyFoDywtvaPah7YT6w="
+      "lastPushTimeStamp": "2022-10-03T08:56:41.104Z",
+      "lastPushDirHash": "nu5gckiSgQaazSNFuaUw9SPhDhI="
     }
   }
 }
